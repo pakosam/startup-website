@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: #5824d3;
+}
+
+nav div {
+  color: #fff;
+}
+
+.logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-text {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+}
+
+.nav-controls {
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+  justify-content: center;
+}
+
+.nav-controls span {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+.user-actions {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+}
+
+.user-actions button {
+  margin: 0 15px;
+  color: #fff;
+}
+
+.sign-up {
+  border: 1px solid lightgray;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.sign-in {
+  border: none;
+  background-color: transparent;
+}
